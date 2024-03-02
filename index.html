@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Informativo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>ELAS PROTEGIDAS</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img id="mulher" src= "obj/img/foto2.webp">
+            </div>
+
+
+        <div class="box-txt">
+        <span>Você tem apoio!</span>
+        <h2>CONTE CONOSCO!</h2>
+        <p>A Lei Federal Lei 13104/2015 determina que homicídios contra mulheres praticados por parceiros ou ex-parceiros da vítima sejam registrados como feminicídio, isto é, como um crime hediondo - sério e cruel - de discriminação, de preconceito e menosprezo à condição feminina.
+            <p>A pena do feminicídio é aumentada de 1/3 (um terço) até a metade se o crime for praticado durante a gestação ou nos três meses posteriores ao parto; contra pessoa menor de 14 (catorze) anos, maior de 60 (sessenta) anos ou com deficiência e na presença de descendente ou de ascendente da vítima.</p>
+            <span>Aqui você encontra reunido INFORMAÇÕES relevantes: instituições de apoio a mulher goiana vítima de violência e aos seus filhos(as), contatos e como denunciar.</span>
+
+        </p> <a href= "mailto:elasprotegidas@gmail.com?subject=&body=" class= "btn-hero"> Fale Conosco</a>
+            
+        </div>
+    </section>
+
+    <section class="apoios">
+        <div class="box-item">
+            <h3>CASA ABRIGO DE GOIÂNIA - SEMPRE VIVA</h3>
+                <p>Com acolhida preventiva e imediata, a Casa Sempre Viva busca garantir a integridade física e/ou psicológica de mulheres em risco de morte e de seus filhos(as). Ainda, a instituição promove o atendimento interdisciplinar psicológico, jurídico e social. 
+                <p><a href="http://127.0.0.1:5500/MeuProjeto/index1.html"> SAIBA MAIS: Casa Abrigo</a></h3>
+        </div>
+
+        <div class="box-item">
+        <h4> PROCURADORIA DA MULHER - ESTADO DE GOIÁS</h4>
+        <p>A Procuradoria da Mulher visa proteger os direitos das mulheres, recebendo, analisando e encaminhando denúncias, sugestões e críticas, inclusive denúncias de violência e discriminação.
+        <p><a href="https://portal.al.go.leg.br/comissoes/18"> SAIBA MAIS: Comissão de Assistência Social do Estado de Goiás!</a><p> 
+        </div>
+        
+        <div class="box-item">
+        <h5>APLICATIVO MULHER SEGURA</h5>
+        <p>O aplicativo Mulher Segura permite à cidadã goiana acesso direto aos serviços do Estado de Goiás para comunicar casos de violência, acionar a Polícia Militar em casos de emergência e ter à mão a localização dos batalhões e das delegacias próximas.
+        <p><a href="http://127.0.0.1:5500/MeuProjeto/index3.html"> SAIBA MAIS: APP Mulher Segura do Estado de Goiás!</a><p> 
+        </div>
+        
+        <div class="box-item">
+            <h6>DELEGACIA DA MULHER</h6>
+            <p> Delegacia Estadual de Combate a Violência Contra a Mulher especializada em receber denúncias e investigar casos de violência contra as mulheres, tanto casos na capital, quanto no interior goiano.
+            <p><a href="http://127.0.0.1:5500/MeuProjeto/index2.html"> SAIBA MAIS: Delegacia da Mulher!</a><p> 
+            </div>  
+</div>
+
+        </section>
+
+    <footer>
+        <p>2024. ©ELASPROTEGIDAS. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const mulher = document.getElementById('mulher');
+       //EVENTO QUANDO PASSAR O MOUSE SOBRE A IMAGEM, TROCAR.
+        mulher.addEventListener('mouseover', function(){
+        mulher.src = "obj/img/foto2.webp"; });
+
+      //EVENTO QUANDO O MOUSE ESTIVER FORA DA IMAGEM
+    mulher.addEventListener('mouseout', function(){
+    mulher.src = "obj/img/foto3.webp"; });
+</script>
+    </body>
+</html>
